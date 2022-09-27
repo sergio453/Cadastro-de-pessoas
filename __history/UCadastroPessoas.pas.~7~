@@ -1,0 +1,42 @@
+unit UCadastroPessoas;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls, Vcl.ComCtrls;
+
+type
+  TfrmCadastroPessoas = class(TForm)
+    Panel1: TPanel;
+    RadioGroup1: TRadioGroup;
+    PageControl1: TPageControl;
+    TabSheet1: TTabSheet;
+    TabSheet2: TTabSheet;
+  private
+    { Private declarations }
+    procedure ControlaAbasPageControl();
+  public
+    { Public declarations }
+  end;
+
+var
+  frmCadastroPessoas: TfrmCadastroPessoas;
+
+implementation
+
+{$R *.dfm}
+
+procedure TfrmCadastroPessoas.ControlaAbasPageControl;
+begin
+  if(RadioGroup1.ItemIndex = 0) then
+    begin
+      PageControl1.TabIndex := 0;
+    end
+  else
+    begin
+      PageControl1.TabIndex := 1;
+    end;
+end;
+
+end.
