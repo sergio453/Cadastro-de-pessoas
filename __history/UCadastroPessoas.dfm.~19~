@@ -48,7 +48,7 @@ object frmCadastroPessoas: TfrmCadastroPessoas
       Top = 46
       Width = 691
       Height = 152
-      ActivePage = TabSheet3
+      ActivePage = TabSheet2
       TabOrder = 1
       object TabSheet1: TTabSheet
         Caption = 'Pessoa f'#237'sica'
@@ -159,10 +159,6 @@ object frmCadastroPessoas: TfrmCadastroPessoas
           MaxLength = 18
           TabOrder = 1
         end
-      end
-      object TabSheet3: TTabSheet
-        Caption = 'Contatos'
-        ImageIndex = 2
       end
     end
     object dbgListaPessoas: TDBGrid

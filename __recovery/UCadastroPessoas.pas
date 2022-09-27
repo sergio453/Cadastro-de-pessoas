@@ -28,6 +28,9 @@ type
     edtNome: TEdit;
     edtCPF: TEdit;
     dbgListaPessoas: TDBGrid;
+    TabSheet3: TTabSheet;
+    TabSheet4: TTabSheet;
+    TabSheet5: TTabSheet;
     procedure FormShow(Sender: TObject);
     procedure RadioGroup1Click(Sender: TObject);
   private

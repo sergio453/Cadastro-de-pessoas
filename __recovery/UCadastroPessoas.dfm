@@ -48,7 +48,7 @@ object frmCadastroPessoas: TfrmCadastroPessoas
       Top = 46
       Width = 691
       Height = 152
-      ActivePage = TabSheet1
+      ActivePage = TabSheet3
       TabOrder = 1
       object TabSheet1: TTabSheet
         Caption = 'Pessoa f'#237'sica'
@@ -160,12 +160,24 @@ object frmCadastroPessoas: TfrmCadastroPessoas
           TabOrder = 1
         end
       end
+      object TabSheet3: TTabSheet
+        Caption = 'Contatos'
+        ImageIndex = 2
+      end
+      object TabSheet4: TTabSheet
+        Caption = 'Endere'#231'o'
+        ImageIndex = 3
+      end
+      object TabSheet5: TTabSheet
+        Caption = 'Acesso ao sistema'
+        ImageIndex = 4
+      end
     end
     object dbgListaPessoas: TDBGrid
       Left = 8
       Top = 197
       Width = 689
-      Height = 187
+      Height = 188
       TabOrder = 2
       TitleFont.Charset = DEFAULT_CHARSET
       TitleFont.Color = clWindowText
