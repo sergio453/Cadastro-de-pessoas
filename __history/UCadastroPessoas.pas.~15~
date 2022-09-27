@@ -43,17 +43,6 @@ type
     Label14: TLabel;
     Label15: TLabel;
     Label16: TLabel;
-    edtCodigoTelefonePais: TEdit;
-    edtCodigoArea: TEdit;
-    edtCelular1: TEdit;
-    edtCelular2: TEdit;
-    edtFixo1: TEdit;
-    edtFixo2: TEdit;
-    edtEmail1: TEdit;
-    edtEmail2: TEdit;
-    edtWhatzap: TEdit;
-    edtInstagran: TEdit;
-    edtLinkedin: TEdit;
     procedure FormShow(Sender: TObject);
     procedure RadioGroup1Click(Sender: TObject);
   private

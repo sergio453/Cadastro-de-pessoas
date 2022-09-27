@@ -163,8 +163,6 @@ object frmCadastroPessoas: TfrmCadastroPessoas
       object TabSheet3: TTabSheet
         Caption = 'Contatos'
         ImageIndex = 2
-        ExplicitLeft = 0
-        ExplicitTop = 21
         object lblIndiceContatos: TLabel
           Left = 16
           Top = 3
@@ -175,12 +173,12 @@ object frmCadastroPessoas: TfrmCadastroPessoas
         object Label6: TLabel
           Left = 40
           Top = 3
-          Width = 100
+          Width = 31
           Height = 13
-          Caption = 'Codigo Telefone Pais'
+          Caption = 'Label6'
         end
         object Label7: TLabel
-          Left = 28
+          Left = 35
           Top = 20
           Width = 31
           Height = 13
@@ -248,94 +246,6 @@ object frmCadastroPessoas: TfrmCadastroPessoas
           Width = 31
           Height = 13
           Caption = 'Label6'
-        end
-        object edtCodigoTelefonePais: TEdit
-          Left = 168
-          Top = 3
-          Width = 121
-          Height = 21
-          TabOrder = 0
-          Text = 'edtCodigoTelefonePais'
-        end
-        object edtCodigoArea: TEdit
-          Left = 120
-          Top = 24
-          Width = 121
-          Height = 21
-          TabOrder = 1
-          Text = 'edtCodigoArea'
-        end
-        object edtCelular1: TEdit
-          Left = 120
-          Top = 51
-          Width = 121
-          Height = 21
-          TabOrder = 2
-          Text = 'edtCelular1'
-        end
-        object edtCelular2: TEdit
-          Left = 120
-          Top = 72
-          Width = 121
-          Height = 21
-          TabOrder = 3
-          Text = 'edtCelular2'
-        end
-        object edtFixo1: TEdit
-          Left = 120
-          Top = 88
-          Width = 121
-          Height = 21
-          TabOrder = 4
-          Text = 'edtFixo1'
-        end
-        object edtFixo2: TEdit
-          Left = 120
-          Top = 99
-          Width = 121
-          Height = 21
-          TabOrder = 5
-          Text = 'edtFixo2'
-        end
-        object edtEmail1: TEdit
-          Left = 464
-          Top = 8
-          Width = 121
-          Height = 21
-          TabOrder = 6
-          Text = 'edtEmail1'
-        end
-        object edtEmail2: TEdit
-          Left = 464
-          Top = 24
-          Width = 121
-          Height = 21
-          TabOrder = 7
-          Text = 'edtEmail2'
-        end
-        object edtWhatzap: TEdit
-          Left = 488
-          Top = 48
-          Width = 121
-          Height = 21
-          TabOrder = 8
-          Text = 'edtWhatzap'
-        end
-        object edtInstagran: TEdit
-          Left = 472
-          Top = 72
-          Width = 121
-          Height = 21
-          TabOrder = 9
-          Text = 'edtInstagran'
-        end
-        object edtLinkedin: TEdit
-          Left = 488
-          Top = 104
-          Width = 121
-          Height = 21
-          TabOrder = 10
-          Text = 'edtLinkedin'
         end
       end
       object TabSheet4: TTabSheet

@@ -164,14 +164,6 @@ object frmCadastroPessoas: TfrmCadastroPessoas
         Caption = 'Contatos'
         ImageIndex = 2
       end
-      object TabSheet4: TTabSheet
-        Caption = 'Endere'#231'o'
-        ImageIndex = 3
-      end
-      object TabSheet5: TTabSheet
-        Caption = 'Acesso ao sistema'
-        ImageIndex = 4
-      end
     end
     object dbgListaPessoas: TDBGrid
       Left = 8

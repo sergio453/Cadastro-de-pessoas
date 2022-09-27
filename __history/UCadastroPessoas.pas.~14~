@@ -29,8 +29,6 @@ type
     edtCPF: TEdit;
     dbgListaPessoas: TDBGrid;
     TabSheet3: TTabSheet;
-    TabSheet4: TTabSheet;
-    TabSheet5: TTabSheet;
     procedure FormShow(Sender: TObject);
     procedure RadioGroup1Click(Sender: TObject);
   private
@@ -94,7 +92,7 @@ begin
    ((RadioGroup1.ItemIndex = 1) and (edtNome.Text <> '')) then
    begin
 
-     if MessageDlg('VocÃª prefere trocar o tipo do registro e apagar todas as informaÃ§Ãµes jÃ¡ digitadas?',mtConfirmation, [mbYes,mbNo],0) = mrYes then
+     if MessageDlg('Você prefere trocar o tipo do registro e apagar todas as informações já digitadas?',mtConfirmation, [mbYes,mbNo],0) = mrYes then
        begin
          ControlaAbasPageControl();
          LimparTodosOsCampos
